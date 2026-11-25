@@ -1,0 +1,1082 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2" pages="6">
+  <diagram name="1. Visitor &amp; Auth" id="yNic4yFDSG6bdj22mA1g">
+    <mxGraphModel dx="998" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-1" value="&lt;b&gt;AOP - Visitor &amp;amp; Authentication Use Cases&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-2" value="Accounting Office Platform (AOP)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=30;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="700" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-3" value="Sign In" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="60" y="40" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-4" value="Sign Out" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="260" y="40" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-5" value="Reset Password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="460" y="40" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-6" value="Browse Service Catalog" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="60" y="120" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-7" value="Search Service Catalog" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="270" y="120" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-8" value="View Service Details" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="480" y="120" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-9" value="Ask AI Assistant" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="60" y="210" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-10" value="Book Consultation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="270" y="210" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-11" value="Submit Contact Inquiry" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="480" y="210" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-12" value="View Public FAQ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="60" y="310" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-13" value="View Office Contact Information" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="270" y="310" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-14" value="Browse Job Openings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="490" y="310" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-15" value="Register Client Account" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="140" y="420" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-16" value="Submit Accountant Application" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4NwMvMzZl9s0Cu9BB2GG-2">
+          <mxGeometry x="380" y="420" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-17" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-18" value="Visitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="345" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-19" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Bot-protection Service&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="880" y="800" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-20" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Generative AI Provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="280" y="830" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-21" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Embedding &amp;amp; Retrieval Service&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-22" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-17" target="4NwMvMzZl9s0Cu9BB2GG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-23" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-17" target="4NwMvMzZl9s0Cu9BB2GG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-24" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-17" target="4NwMvMzZl9s0Cu9BB2GG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-25" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-26" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-27" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-28" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-29" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-30" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-31" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-32" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-33" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-34" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-35" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-18" target="4NwMvMzZl9s0Cu9BB2GG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-36" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-9" target="4NwMvMzZl9s0Cu9BB2GG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-37" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-9" target="4NwMvMzZl9s0Cu9BB2GG-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-38" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-15" target="4NwMvMzZl9s0Cu9BB2GG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-39" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-16" target="4NwMvMzZl9s0Cu9BB2GG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4NwMvMzZl9s0Cu9BB2GG-40" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="4NwMvMzZl9s0Cu9BB2GG-11" target="4NwMvMzZl9s0Cu9BB2GG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2. Client Portal" id="5vk8-qbiXbVaHNTy8WxE">
+    <mxGraphModel dx="2676" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_2" value="&lt;b&gt;AOP - Client Portal &amp;amp; Service Lifecycle&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_2" value="Accounting Office Platform (AOP)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="930.0000000000001" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="c_view_prof" value="View Profile" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="40" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_edit_prof" value="Edit Profile" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="220" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_comp" value="Manage Company Profiles" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="400" y="40" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_acc_set" value="Manage Account Settings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="595" y="40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_submit_req" value="Submit Service Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="530" y="150" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_my_req" value="View My Requests" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="50" y="260" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_cancel_req" value="Cancel Service Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="50" y="365" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_req_cancel" value="Request Service Request Cancellation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="255" y="365" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_download" value="Download Deliverables" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="490" y="365" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_close" value="Confirm Request Closure" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="50" y="470" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_rate" value="Rate Completed Service" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="300" y="470" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pay_inv" value="Pay Invoice Online" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="510" y="470" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_cal_view" value="View Compliance Calendar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="50" y="575" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_cal_done" value="Mark Compliance Obligation as Done" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="265" y="575" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_cal_exp" value="Export Compliance Calendar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="510" y="575" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_quotes" value="View Quotes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="65" y="680" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_quote_dec" value="Accept or Decline Quote" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="235" y="680" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_invoices" value="View Invoices and Payment Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="440" y="680" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_notif_view" value="View Notifications" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="50" y="785" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_notif_mng" value="Manage Notifications" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="245" y="785" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_del_chat" value="Delete Conversation History" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="450" y="785" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_del_acc" value="Request Account Deletion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="150" y="885" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_exp_data" value="Request Personal Data Export" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="380" y="885" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_rate_edge" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_2" source="c_rate" target="c_close" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_rate_lbl" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="sys_2" vertex="1">
+          <mxGeometry x="225" y="450" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_chat_edge" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="sys_2" source="c_del_chat" target="DSWPg-A7dvaUpjmsG8kT-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_chat_lbl" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="sys_2" vertex="1">
+          <mxGeometry x="635" y="768.75" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c_comm" value="Communicate with Staff" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="270" y="160" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_track_req" value="View and Track Request Details" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="45" y="160" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_draft_edge" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_2" source="c_draft" target="c_create_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_draft_lbl" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="sys_2" vertex="1">
+          <mxGeometry x="450" y="260" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c_create_req" value="Create Service Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="280" y="280" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c_draft" value="Save and Resume Draft Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="sys_2" vertex="1">
+          <mxGeometry x="520" y="280" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cWOKowrg-SZ-UMBvW_iz-1" value="Ask AI Assistant" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="sys_2" vertex="1">
+          <mxGeometry x="740" y="280" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cWOKowrg-SZ-UMBvW_iz-2" value="Book Consultation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="sys_2" vertex="1">
+          <mxGeometry x="740" y="145" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DSWPg-A7dvaUpjmsG8kT-1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="sys_2">
+          <mxGeometry x="710" y="777.5" width="160" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DSWPg-A7dvaUpjmsG8kT-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;View Chat History&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sys_2">
+          <mxGeometry x="730" y="788.75" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_client" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="570" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_pay" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Payment Channel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="540" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_storage" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Object Storage &amp;amp; Malware Scanner&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="340" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note_draft" value="Condition: [Client chooses to save the request as a draft]&#xa;Extension Point: Save Draft" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="210" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="note_rate" value="Condition: [Client chooses to submit a rating]&#xa;Extension Point: After Request Closure" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="630" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="note_chat" value="Condition: [Client chooses to delete a conversation]&#xa;Extension Point: Manage Conversation History" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="730" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e1" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_view_prof" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e2" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_edit_prof" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e3" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_comp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e4" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_acc_set" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e5" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_create_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="act_client" target="c_submit_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e7" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_my_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e8" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_track_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e9" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_comm" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e10" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_cancel_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e11" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_req_cancel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e12" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_download" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e13" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_close" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e14" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_pay_inv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e15" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_cal_view" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e16" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_cal_done" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e17" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_cal_exp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e18" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_quotes" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e19" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_quote_dec" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e20" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_invoices" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e21" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_notif_view" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e22" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_notif_mng" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e23" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_client" target="c_del_acc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_e24" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="act_client" target="c_exp_data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_ex1" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="c_download" target="ext_storage" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_ex2" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="c_pay_inv" target="ext_pay" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yUrEZqOPkaK4iPNWqA3X-1" style="endArrow=none;html=1;rounded=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="c_create_req" target="ext_storage" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="897" y="464" as="sourcePoint" />
+            <mxPoint x="1090" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cWOKowrg-SZ-UMBvW_iz-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="act_client" target="cWOKowrg-SZ-UMBvW_iz-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-34" y="580" as="sourcePoint" />
+            <mxPoint x="196" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cWOKowrg-SZ-UMBvW_iz-4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="act_client" target="cWOKowrg-SZ-UMBvW_iz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-34" y="580" as="sourcePoint" />
+            <mxPoint x="196" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3. Accountant Staff" id="4IGesTrgJsltmltA_Nn5">
+    <mxGraphModel dx="1226" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_3" value="&lt;b&gt;AOP - Accountant (Staff) Operations&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_3" value="Accounting Office Platform (AOP)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=30;" parent="1" vertex="1">
+          <mxGeometry x="250" y="80" width="780" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="a_search_req" value="Search Service Requests" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="50" y="45" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_upd_stat" value="Update Request Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="260" y="45" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_proc_req" value="Review and Process Service Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="470" y="45" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_req_info" value="Request Additional Information from Client" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="50" y="160" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a_comm_cl" value="Communicate with Client on Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="340" y="160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a_note" value="Add Internal Note" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="50" y="280" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_reopen" value="Reopen Completed Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="250" y="280" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_complete" value="Complete Service Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="480" y="280" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_cal_add" value="Add Manual Calendar Entry" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="50" y="395" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_cal_done" value="Mark Compliance Entry as Done" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="280" y="395" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_rev_doc" value="Review Uploaded Documents" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="270" y="515" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a_acc_doc" value="Accept Uploaded Document" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="50" y="630" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_rej_doc" value="Reject Uploaded Document with Reason" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="490" y="630" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a_quote" value="Issue Service Quote" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="50" y="755" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_tickets" value="View Inquiry and Hand-off Tickets" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="260" y="755" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_pay" value="Record Client Payment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="510" y="755" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a_resp_inq" value="Respond to Inquiry" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="sys_3" vertex="1">
+          <mxGeometry x="275" y="835" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_info" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_3" source="a_req_info" target="a_comm_cl" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_info_lbl" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="sys_3" vertex="1">
+          <mxGeometry x="275" y="168" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_acc_doc" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_3" source="a_acc_doc" target="a_rev_doc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_rej_doc" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_3" source="a_rej_doc" target="a_rev_doc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I1rbxUNuwDqgCWQ6X30D-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;View and Search Accountant Applications&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="sys_3">
+          <mxGeometry x="510" y="390" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1rbxUNuwDqgCWQ6X30D-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Review and Process Accountant Application&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="sys_3">
+          <mxGeometry x="520" y="515" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bqknDWJr_tPeycsHeuQF-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_3">
+          <mxGeometry x="465" y="575" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bqknDWJr_tPeycsHeuQF-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_3">
+          <mxGeometry x="175" y="595" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bqknDWJr_tPeycsHeuQF-3" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="sys_3" source="a_req_info" target="a_proc_req">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="168" as="sourcePoint" />
+            <mxPoint x="375" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bqknDWJr_tPeycsHeuQF-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_3">
+          <mxGeometry x="280" y="120" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act_acc" value="Accountant (Staff)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_storage3" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Object Storage &amp;amp; Malware Scanner&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note_info" value="Condition: [Accountant needs additional information from the Client]&#xa;Extension Point: Request Additional Information" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="note_doc_acc" value="Condition: [The uploaded document meets the required criteria]&#xa;Extension Point: Document Review Decision" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="640" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="note_doc_rej" value="Condition: [The uploaded document does not meet the required criteria]&#xa;Extension Point: Document Review Decision" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="725" width="260" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e1" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_search_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e2" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_upd_stat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e3" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_proc_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e4" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_req_info" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e5" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_comm_cl" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e6" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_note" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e7" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_reopen" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e8" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_complete" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e9" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_cal_add" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e10" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_cal_done" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e11" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_rev_doc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e12" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_acc_doc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e13" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_rej_doc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e14" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_quote" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e15" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_tickets" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e16" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_pay" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_e17" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_acc" target="a_resp_inq" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_ex1" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="a_complete" target="ext_storage3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_ex2" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="a_rev_doc" target="ext_storage3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_ex3" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="a_rej_doc" target="ext_storage3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I1rbxUNuwDqgCWQ6X30D-3" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="940" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. Recruitment &amp; HR" id="oKmiiQHiFazPekh9g-Zn">
+    <mxGraphModel dx="876" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_4" value="&lt;b&gt;AOP - Accountant Recruitment &amp;amp; Interview Flow&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_4" value="Accounting Office Platform (AOP)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=30;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="740" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="r_track" value="Track Application Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="sys_4" vertex="1">
+          <mxGeometry x="50" y="60" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r_edit" value="Edit Submitted Application" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="sys_4" vertex="1">
+          <mxGeometry x="270" y="60" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r_withdraw" value="Withdraw Application" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="sys_4" vertex="1">
+          <mxGeometry x="500" y="60" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r_save_prog" value="Save Application Progress" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="sys_4" vertex="1">
+          <mxGeometry x="70" y="160" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r_del_data" value="Request Application Data Deletion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="sys_4" vertex="1">
+          <mxGeometry x="310" y="180" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r_resp_int" value="Respond to Interview Invitation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="sys_4" vertex="1">
+          <mxGeometry x="450" y="340" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_view_apps" value="View and Search Accountant Applications" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="sys_4" vertex="1">
+          <mxGeometry x="50" y="480" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_proc_app" value="Review and Process Accountant Application" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="sys_4" vertex="1">
+          <mxGeometry x="300" y="480" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_sched_int" value="Schedule Applicant Interview" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_4" vertex="1">
+          <mxGeometry x="150" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_hire_dec" value="Make Hiring Decision" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_4" vertex="1">
+          <mxGeometry x="80" y="620" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r_create_staff" value="Create Staff Account from Hired Applicant" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_4" vertex="1">
+          <mxGeometry x="340" y="620" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_r1" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_4" source="r_sched_int" target="r_proc_app" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_r2" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_4" source="r_resp_int" target="r_sched_int" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_r3" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_4" source="r_create_staff" target="r_hire_dec" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZFo3x03ZZxmq7qc_Csk-1" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Submit Accountant Application&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sys_4">
+          <mxGeometry x="470" y="260" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qN6mnxYAnXMBP8Q1giA7-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_4">
+          <mxGeometry x="360" y="340" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qN6mnxYAnXMBP8Q1giA7-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_4">
+          <mxGeometry x="290" y="430" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qN6mnxYAnXMBP8Q1giA7-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_4">
+          <mxGeometry x="275" y="630" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act_applicant" value="Accountant Applicant" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="80" y="230" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="act_mgr4" value="Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_email4" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Email Provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="450" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note_r1" value="Condition: [Applicant status is Shortlisted and reviewer decides to schedule an interview]&#xa;Extension Point: Schedule Interview" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="210" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note_r2" value="Condition: [Applicant chooses to confirm or request rescheduling of the scheduled interview]&#xa;Extension Point: Respond to Scheduled Interview" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="310" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note_r3" value="Condition: [Application status is Hired and Manager chooses to create a staff account]&#xa;Extension Point: After Hiring Decision" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="630" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="re1" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_applicant" target="r_track" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re2" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_applicant" target="r_edit" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re3" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_applicant" target="r_withdraw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re4" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_applicant" target="r_save_prog" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="act_applicant" target="r_del_data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re6" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_applicant" target="r_resp_int" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rm1" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr4" target="r_view_apps" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rm2" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr4" target="r_proc_app" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rm3" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr4" target="r_sched_int" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rm4" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr4" target="r_hire_dec" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rm5" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr4" target="r_create_staff" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rx1" style="endArrow=none;html=1;rounded=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="r_sched_int" target="ext_email4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rx2" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="r_resp_int" target="ext_email4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZFo3x03ZZxmq7qc_Csk-2" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="act_applicant" target="oZFo3x03ZZxmq7qc_Csk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="292" as="sourcePoint" />
+            <mxPoint x="746" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qN6mnxYAnXMBP8Q1giA7-5" style="endArrow=none;html=1;rounded=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="oZFo3x03ZZxmq7qc_Csk-1" target="ext_email4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="926" y="468" as="sourcePoint" />
+            <mxPoint x="1080" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5. Knowledge Base" id="DJrF5xgBSQipYnKNoqcj">
+    <mxGraphModel dx="1022" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_5" value="&lt;b&gt;AOP - Knowledge Base &amp;amp; Service Catalog Management&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_5" value="Accounting Office Platform (AOP)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=30;" parent="1" vertex="1">
+          <mxGeometry x="250" y="80" width="760" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="k_create" value="Create Knowledge Item" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="50" y="50" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_ingest" value="Ingest and Prepare Knowledge Content" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="260" y="50" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k_sub_rev" value="Submit Knowledge Item for Review" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="510" y="50" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k_review" value="Review Knowledge Item" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="50" y="170" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_archive" value="Archive Knowledge Item" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="260" y="170" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_versions" value="View Knowledge Item Versions" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="470" y="170" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_verify" value="Verify Knowledge Items" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="50" y="290" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_conflict" value="Review Conflicting Knowledge Items" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="270" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k_stale_kb" value="View Stale Knowledge Items" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="520" y="290" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_import" value="Import Knowledge Items in Bulk" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="50" y="415" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_sandbox" value="Test Draft Knowledge Items in Sandbox" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="290" y="415" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k_golden" value="Manage Golden Question Set" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="545" y="415" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_export_kb" value="Export Knowledge Base" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="90" y="540" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_mng_srv" value="Manage Service Catalog" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="sys_5" vertex="1">
+          <mxGeometry x="310" y="540" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="k_stale_srv" value="View Stale Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#6F0000;" parent="sys_5" vertex="1">
+          <mxGeometry x="530" y="540" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="act_kb" value="KB Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FF6666;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_emb5" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Embedding &amp;amp; Retrieval Service&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ke1" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_create" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke2" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_ingest" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke3" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_sub_rev" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke4" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_review" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke5" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_archive" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke6" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_versions" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke7" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_verify" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke8" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_conflict" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke9" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_stale_kb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke10" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_import" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke11" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_sandbox" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke12" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_golden" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke13" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_export_kb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke14" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_mng_srv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ke15" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_kb" target="k_stale_srv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx1" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="k_ingest" target="ext_emb5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx2" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="k_import" target="ext_emb5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="6. Manager &amp; Admin" id="Sad6GGlkbucX-hXcRkK5">
+    <mxGraphModel dx="1708" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_6" value="&lt;b&gt;AOP - Management, Billing &amp;amp; System Administration&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_6" value="Accounting Office Platform (AOP)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=260;height=30;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="760" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="m_all_req" value="View All Service Requests" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="45" y="45" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_assign_req" value="Assign and Reassign Service Requests" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="255" y="45" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_rev_cancel" value="Review Cancellation Request" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="495" y="45" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_upd_req" value="Update Service Request Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="45" y="155" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_roles" value="Manage User Roles and Permissions" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="485" y="155" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_dis_client" value="Search and Disable Client Accounts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="45" y="265" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_ver_reg" value="Verify Professional Registration" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="290" y="265" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_deact_staff" value="Deactivate Staff Account" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="515" y="265" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_jobs" value="Manage Job Openings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="45" y="375" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_exp_apps" value="Export Accountant Applications" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="260" y="375" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_dash" value="View Management Dashboard" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="265" y="155" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_reports" value="View Management Reports" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="30" y="468" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_exp_rep" value="Export Reports" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="290" y="468" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_sys_set" value="Manage System Settings" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="45" y="595" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tmpl" value="Manage Notification and Email Templates" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="255" y="625" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_pub_info" value="Manage Public Office Information" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="520" y="680" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_static" value="Manage Static Pages" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="45" y="705" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_pay_conf" value="Confirm Client Payment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="300" y="760" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_refund" value="Issue Credit Note or Refund" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="520" y="850" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_audit_view" value="View and Search Audit Log" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="50" y="830" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_audit_exp" value="Export Audit Log" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="280" y="850" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_del_kb" value="Permanently Delete Knowledge Item" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="500" y="940" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_notif_log" value="View Notification Delivery Log" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="70" y="940" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_m1" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_6" source="m_exp_rep" target="m_reports" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_m2" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;" parent="sys_6" source="m_refund" target="m_pay_conf" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tzp1EHSTvVndY5d9bWVC-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Create Staff Account from Hired Applicant&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="sys_6">
+          <mxGeometry x="515" y="468" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tzp1EHSTvVndY5d9bWVC-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Make Hiring Decision&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="sys_6">
+          <mxGeometry x="515" y="570" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tzp1EHSTvVndY5d9bWVC-3" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sys_6" source="6scyqr6au2XmhljNPeT--1" target="tzp1EHSTvVndY5d9bWVC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="595" as="sourcePoint" />
+            <mxPoint x="830" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_6">
+          <mxGeometry x="582.5" y="530" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--2" value="" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sys_6" source="tzp1EHSTvVndY5d9bWVC-1" target="6scyqr6au2XmhljNPeT--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="603" as="sourcePoint" />
+            <mxPoint x="870" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--6" value="Manage Service Catalog" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="sys_6">
+          <mxGeometry x="50" y="1100" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Review and Process Accountant Application&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="sys_6">
+          <mxGeometry x="315" y="995" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;View and Search Accountant Applications&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="sys_6">
+          <mxGeometry x="540" y="1100" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_inv_staff" value="Invite Staff Member" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="sys_6" vertex="1">
+          <mxGeometry x="525" y="370" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--13" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sys_6" source="tzp1EHSTvVndY5d9bWVC-1" target="m_inv_staff">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="518" as="sourcePoint" />
+            <mxPoint x="820" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_6">
+          <mxGeometry x="580" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Schedule Applicant Interview&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="sys_6">
+          <mxGeometry x="290" y="1120" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_6">
+          <mxGeometry x="370" y="1080" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-4" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sys_6" source="WlxRATsrCs0jDWcZ1tt1-2" target="6scyqr6au2XmhljNPeT--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1125" as="sourcePoint" />
+            <mxPoint x="420" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_6">
+          <mxGeometry x="225" y="503" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_6">
+          <mxGeometry x="210" y="885" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-10" style="edgeStyle=none;html=1;endArrow=open;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sys_6" source="m_audit_exp" target="m_audit_view">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="950" as="sourcePoint" />
+            <mxPoint x="225" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="sys_6">
+          <mxGeometry x="455" y="830" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act_mgr6" value="Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="80" y="470" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_email6" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Email Provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="340" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_pay6" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Payment Channel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="760" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mm1" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_all_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm2" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_assign_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_rev_cancel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm4" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_upd_req" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm5" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_inv_staff" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm6" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_roles" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm7" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_dis_client" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm8" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_ver_reg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm9" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_deact_staff" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm10" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_jobs" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm11" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_exp_apps" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm12" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_dash" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm13" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_reports" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm14" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_exp_rep" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm15" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_sys_set" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm16" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_tmpl" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm17" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_pub_info" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm18" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_static" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm19" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_pay_conf" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm20" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_refund" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm21" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_audit_view" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm22" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_audit_exp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm23" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_del_kb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mm24" style="endArrow=none;html=1;rounded=0;" parent="1" source="act_mgr6" target="m_notif_log" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mx1" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="m_inv_staff" target="ext_email6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mx2" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="m_pay_conf" target="ext_pay6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" source="m_refund" target="ext_pay6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tzp1EHSTvVndY5d9bWVC-4" value="Condition: [Application status is Hired and Manager chooses to create a staff account]&#xa;extension point: After Hiring Decision" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;rotation=0;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1106.85" y="932.91" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="act_mgr6" target="tzp1EHSTvVndY5d9bWVC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="566" as="sourcePoint" />
+            <mxPoint x="400" y="911" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="act_mgr6" target="tzp1EHSTvVndY5d9bWVC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="525" as="sourcePoint" />
+            <mxPoint x="775" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--9" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="act_mgr6" target="6scyqr6au2XmhljNPeT--6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="565" as="sourcePoint" />
+            <mxPoint x="410" y="911" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--10" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="act_mgr6" target="6scyqr6au2XmhljNPeT--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="575" as="sourcePoint" />
+            <mxPoint x="420" y="921" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6scyqr6au2XmhljNPeT--11" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="act_mgr6" target="6scyqr6au2XmhljNPeT--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="585" as="sourcePoint" />
+            <mxPoint x="430" y="931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlxRATsrCs0jDWcZ1tt1-6" value="Condition: [Applicant status is Shortlisted and reviewer decides to schedule an interview]&#xa;extension point: Schedule Interview" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1106.85" y="1120" width="263.15" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
